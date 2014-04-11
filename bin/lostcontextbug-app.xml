@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/4.0">
+  <id>com.durej.lostcontextbug</id>
+
+  <filename>lostcontextbug</filename>
+   <name>Lost context bug example</name>
+   <versionNumber>1.0.0</versionNumber>
+   <initialWindow>
+    <content>lostcontextbug.swf</content>
+    <fullScreen>false</fullScreen>
+    <autoOrients>true</autoOrients>
+    <visible>true</visible>
+    <renderMode>direct</renderMode>
+  </initialWindow>
+   <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+							<uses-permission android:name="android.permission.INTERNET"/>
+			 				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+							<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+							<uses-configuration android:reqFiveWayNav="true"/>
+							<supports-screens android:normalScreens="true"/>
+							<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch"/>
+							<application android:enabled="true">
+								<activity android:excludeFromRecents="false">
+									<intent-filter>
+										<action android:name="android.intent.action.MAIN"/>
+										<category android:name="android.intent.category.LAUNCHER"/>
+									</intent-filter>
+								</activity>
+							</application>
+						</manifest>]]></manifestAdditions>
+  </android>
+  <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles>
+</application>
+

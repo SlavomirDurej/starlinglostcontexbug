@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:29fa47d767445408afba72adcd59e1d1:09a43ddcb8a9034112c072747bf82871:1da8adadb9ee005e57c938ad8e539c04$ -->
+<TextureAtlas imagePath="spritesheet.atf">
+    <SubTexture name="Black Cat" x="360" y="60" width="81" height="54"/>
+    <SubTexture name="Boot" x="160" y="98" width="85" height="87"/>
+    <SubTexture name="Cardinal" x="60" y="98" width="96" height="91" frameX="-2" frameY="0" frameWidth="98" frameHeight="91"/>
+    <SubTexture name="Carton Of Eggs" x="360" y="3" width="84" height="53"/>
+    <SubTexture name="Cello" x="115" y="388" width="65" height="99"/>
+    <SubTexture name="Coffee Beans" x="448" y="3" width="58" height="50"/>
+    <SubTexture name="Coffee Pot" x="203" y="3" width="69" height="84"/>
+    <SubTexture name="Crab" x="3" y="436" width="108" height="73"/>
+    <SubTexture name="Finch" x="271" y="188" width="73" height="61"/>
+    <SubTexture name="Fish" x="51" y="388" width="58" height="32"/>
+    <SubTexture name="Gem" x="198" y="189" width="69" height="73"/>
+    <SubTexture name="Grasshopper" x="314" y="118" width="78" height="66"/>
+    <SubTexture name="Green Faberge Egg" x="60" y="193" width="47" height="79"/>
+    <SubTexture name="Hawk Feathers" x="276" y="3" width="80" height="68"/>
+    <SubTexture name="Milk Bottle" x="448" y="57" width="26" height="61"/>
+    <SubTexture name="Nest" x="111" y="193" width="83" height="76"/>
+    <SubTexture name="Prince Charming Frog" x="60" y="3" width="139" height="91"/>
+    <SubTexture name="Record Player" x="152" y="273" width="54" height="84"/>
+    <SubTexture name="Ring" x="396" y="122" width="76" height="66"/>
+    <SubTexture name="Sceptre" x="3" y="3" width="53" height="271"/>
+    <SubTexture name="Single Apple" x="249" y="91" width="61" height="72"/>
+    <SubTexture name="Wizard Hat" x="51" y="278" width="97" height="106"/>
+    <SubTexture name="Wizard Wand" x="3" y="278" width="44" height="154"/>
+</TextureAtlas>
