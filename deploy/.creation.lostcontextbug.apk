@@ -1,0 +1,23 @@
+C:\FlexSDK\4.6.0 air 4.0\bin\adt.bat
+-package
+-target
+apk-debug
+-listen
+7935
+-storetype
+pkcs12
+-keystore
+cert/android.p12
+-storepass
+5dDoGZNYIqgdmx2bZQM3/g==
+C:/_ftd_workspace_2013/lostcontextbug/deploy/lostcontextbug.apk
+bin/lostcontextbug-app.xml
+-C
+bin
+lostcontextbug.swf
+-e
+bin/spritesheet.atf
+spritesheet.atf
+-e
+bin/spritesheet.xml
+spritesheet.xml

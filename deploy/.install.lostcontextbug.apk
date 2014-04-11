@@ -1,0 +1,4 @@
+C:\FlexSDK\4.6.0 air 4.0\lib\android\bin\adb.exe
+install
+-r
+C:/_ftd_workspace_2013/lostcontextbug/deploy/lostcontextbug.apk
