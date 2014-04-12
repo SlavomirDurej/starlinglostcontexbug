@@ -13,7 +13,7 @@ package com.durej.lostcontextbug
 		var assetManager		: AssetManager;
 		
 		public function Main()
-        {
+        	{
 			assetManager = new AssetManager(1,false);
 			assetManager.enqueue([File.applicationDirectory.resolvePath("spritesheet.atf"),File.applicationDirectory.resolvePath("spritesheet.xml")]);
 			assetManager.verbose = true;
@@ -34,5 +34,5 @@ package com.durej.lostcontextbug
 			img.y = 1;
 			this.addChild(img);
 		}
-    }
+    	}
 }
